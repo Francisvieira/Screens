@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Camera from './screens/camera';
+import Camera from './screens/TelaCamera';
 import Home from './screens/home';
 import Galeria from './screens/galeria';
 

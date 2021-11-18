@@ -13,12 +13,13 @@ export const formato = StyleSheet.create({
         resizeMode: "cover"
     },
     menu: {
-        
+        top:20,
+        left:20,
         height:600,
         flexDirection: "row",
         flexWrap: "wrap",
         width: '90%',
-        backgroundColor: 'rgba(255,255,255,0.7)',
+        backgroundColor: '#9595EC',
         borderRadius: 20,
         margin: "auto",
         padding: 20

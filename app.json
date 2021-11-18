@@ -1,5 +1,13 @@
 {
-  "expo": {
+  "expo": { 
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app acessa sua fotos, compartilhe com seus amigos."
+        }
+      ]
+    ],
     "name": "projetotelas",
     "slug": "projetotelas",
     "version": "1.0.0",
