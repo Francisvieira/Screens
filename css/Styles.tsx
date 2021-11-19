@@ -1,10 +1,11 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet,Dimensions} from "react-native";
 
 export const formato = StyleSheet.create({
 
     conteudo: {
         flex: 1,
-        justifyContent: "center"
+        justifyContent: "center",
+        
     },
     fundo: {
         flex: 1,
@@ -40,6 +41,17 @@ export const formato = StyleSheet.create({
     txtbtn: {
         fontSize: 20,
         textAlign: "center",
+    }, 
+
+    mapa:{
+
+        width:Dimensions.get('window').width,
+        height:Dimensions.get('window').height,
+    }, 
+    pw:{
+        flex:1,
+        justifyContent:'center',
+        marginTop:35,
     }
 
 })
